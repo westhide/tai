@@ -1,5 +1,5 @@
 export { type Patch, Component, component$ } from "./component";
 
-export { render, insert, swap } from "./render";
+export { render } from "./render";
 
-export { toSibling } from "./shared";
+export { toSibling, insert, swap } from "./shared";
